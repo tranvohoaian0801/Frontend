@@ -1,0 +1,75 @@
+.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+.shopping-mall>h1{
+    font-family: Impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 0px dotted gray;
+    margin: 0px;
+}
+.shopping-mall>h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+.poly-cart{
+    margin-top: 5px;
+}
+.poly-cart ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+.poly-cart .panel-heading strong{
+    font-variant: small-caps;
+    font-size: large;
+    text-shadow: 0 0 2px darkgrey;
+}
+.poly-prod{
+    text-align: center;
+    padding: 5px;
+}
+.poly-prod .penel-body img{
+    height: 150px;
+    max-width: 95%;
+}
+header{
+    position: relative;
+    background-color: blue;
+}
+nav{
+    background-color: yellow;
+}
+article{
+    background-color: antiquewhite;
+}
+aside{
+    background-color: aqua;
+}
+footer{
+    background-color: gray;
+}
+.product{
+    display: flex;
+}
+.carousel-inner img{
+    margin: 0 auto;
+    height: 300px;
+    max-width: 95%;
+}
+#accordion .panel-heading{
+    cursor: pointer;
+}
+.img-thumbnail{
+    height: 50px;
+    max-width: 95%;
+}
+.sp{
+    padding: 10px;
+}

@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+}
+.Header{
+    height: 150px;
+    border: 1px solid black;   
+    margin-bottom: 5px;
+    background-image: url('.//image/nha-trang-5.jpg') ;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-variant: small-caps;
+    background-position: top center;
+    background-size: 100% ;
+
+}
+.Header .h1{
+    margin: 10px;
+    padding: 20px;
+    font-size: 100px;
+    color: orangered;
+    text-align: center;
+}
+.Header .logo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+    top : 25px;
+    left : 25px;
+}
+.Menu{
+    height: 50px;
+    margin-bottom: 5px;
+    border: 1px solid black;  
+}
+.Menu a{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Menu .Menucon>a{
+    color:royalblue;
+    font-variant: unset;
+    text-decoration: none;
+    margin: 15px;
+}
+.Menu .Menucon>a:hover{
+    color: red;
+}
+.Body{
+    height: auto;
+    min-height: 80vh;
+    display: flex;
+    border: 1px solid black; 
+    font-size: 20px;
+
+}
+.Body .center{   
+    width: calc(100% - 295px);
+    height: 410vh;
+    margin-right: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+img .body{
+    object-fit: cover;
+}
+.margin{
+    margin: 15px;
+}
+div.center{
+    display:inline-block;   
+}
+.center{
+    padding: 10px;
+}
+.Body .right{    
+    width: 300px;  
+    min-height: 80vh;
+    border: 1px solid black;   
+}
+.right .right-small{
+    height: 190px;
+    border: 1px solid;
+}
+.right-small .help{
+    height: 20px;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+div .help{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.right-small p{
+    padding: 1px;
+    margin: 10px;
+    font-size: 20px;
+}
+.right .right-2{
+    height: 800px;
+    border: 1px solid;
+}
+.right-2 .Tour{
+    height: 20px;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+div .Tour{
+    padding: 15px;
+}
+.right-2 ul li:hover{
+    color: brown;
+    background-color: dodgerblue;
+}
+.right-3 ul li:hover{
+    background-color:dodgerblue;
+}
+.right .right-3{
+    height: 700px;
+    border: 1px solid;
+}
+.right-3 .TourTN{
+    height: 20px;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+div .TourTN{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.right .right-4{
+    height: 690px;
+    border: 1px solid;
+}
+.right-4 .giare{
+    height: 20px;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+   
+}
+div .giare{
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.right-4 ul li:hover{
+    background-color:dodgerblue ;
+}
+.Footer{
+    height: 270px;
+    margin-top: 5px;
+    border: 1px solid black;
+    font-size: 15px;   
+}
+.Footer p{
+    padding: -2px;
+    color:black;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: 350px;
+}
+tr th{
+    color: red;
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+span{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.center img{
+    display: inline-block;
+} 
+p.VCT{
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+p.LVHD{
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+.center ul li{
+    font-weight: bold;
+    font-size: 20px;
+}
+p.TNSM{
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+div.TN{
+    font-weight: bold;
+    font-size: 25px;
+}
+div.SM{
+    font-weight: bold;
+    font-size: 25px;
+}
+p.GPGT{
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+p.HAHD{
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+.center-con{
+    float: left;
+    font-size: 25px;
+    display: flex;
+    
+}
+div.champa a{
+    color:blue;
+    text-decoration: none;
+}
+div.phong{
+    color:red;
+}
+div.KS{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+div.King a{
+    color: blue;
+    text-decoration: none;
+}
+div.phong1{
+    color: red;
+}
+div.center-con1{
+    float: left;
+    font-size: 25px;
+    display: flex;
+}
+div.GM a{
+    color: blue;
+    text-decoration: none;
+}
+div.phong2{
+    color: red;
+}
+div.center-con2{
+    float: left;
+    font-size: 25px;  
+    display: flex;  
+}
+div.VMB{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+div.CN a{
+    color: blue;
+    text-decoration: none;
+}
+.center-div{
+    font-size: 25px;
+    display: flex;
+}
+div.DH a{
+    color: blue;
+    text-decoration: none;
+}
+.center-div1{
+    font-size: 25px;
+    display: flex;
+}
+div.VN a{
+    color: blue;
+    text-decoration: none;
+}
+.center-div2{
+    font-size: 25px;
+    display: flex;
+}
+div.center{
+    text-decoration: none;
+}
+div.NKS a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+
+div.KH{
+    color:black;
+}
+div.TG{
+    color:black;
+}
+div.CP{
+    color: red;
+}
+div.DD a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+div.CPH a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+div.GY a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+div.REw a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+div.Queen a{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+}
+.center div img.KC{
+    object-fit: cover;
+}
+div.THL a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.center div img.SLC{
+    object-fit: cover;
+}
+div.AN a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+div.KP a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: none;
+}
+p.CNDL{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+div.NTL a{
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+div.DN a{
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+div.QN a{
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+span.span{
+    font-variant:initial;
+}
+div.job{
+    display: flex;
+    margin: 20px;
+}
+div.Trinh{
+    padding: 15px;
+}
+div.Anh{
+    padding: 15px;
+}
+div.Chien{
+    padding: 15px ;
+}
+div.Hoa{
+    padding: 15px;
+}
+.video{
+    margin-left:250px ;
+}
+.video1{
+    margin-left: 250px;
+}
+.gin{
+    margin: 15px;
+}
+.thaybo{
+    display: flex;
+}
+.ngoaitroi{
+    border: 1px solid black;
+    padding: 10px;
+}
+.inter{
+    border: 1px solid black;
+    padding: 10px;
+}
+.dichvu{
+    border: 1px solid black;
+    padding: 10px;
+}
+.hoaian{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color:dodgerblue;
+    margin-left: 500px;
+}
+.BBB{
+    display: flex;
+}
+.CCC{
+    display: flex;
+}
+.MMM{
+    display: flex;
+}
+.TTT{
+    display: flex;
+}
+.PPP{
+    display: flex;
+}
+.DDD{
+    display: flex;
+}
+label.lb1{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-right: 210px;
+}
+input.ip1{
+    margin-right: 220px;
+    width: 200px;
+    height: 35px;
+}
+label.lb2{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-right: 290px;
+}
+label.lb3{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-right: 330px;
+}
+label.lb4{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-right: 20px;
+}
+textarea{
+    margin-right: 250px;
+}
+.h2 {
+    text-align: center;
+}
+    
+
+
+
+
